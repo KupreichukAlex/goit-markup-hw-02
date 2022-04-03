@@ -38,14 +38,6 @@
   color: var(--main-text-color)
 }
 
-.nav-menu:hover,
-.nav-menu:focus {
-  color: #2196F3;
-  
-}
-li{
-color: #757575 !important;
-}
 .contact-number {
   width: 122px;
   height: 16px;
@@ -55,8 +47,8 @@ color: #757575 !important;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 30px;
+  line-height: 1,17;
   letter-spacing: 0.02em;
   color: #757575 !important;
   
@@ -96,8 +88,8 @@ color: #757575 !important;
 .modal-btn:focus {
   
 }
-
-/*.hero {
+*/
+.hero {
   position: absolute;
   width: 1600px;
   height: 600px;
