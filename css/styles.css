@@ -1,22 +1,73 @@
 :root {
   --main-font:'Roboto', sans-serif ;
-  --secondary-font: ;
-  --accent-color:;
   --main-text-color: #2f303a;
-  --text-color-theme-dark: ;
+  --text-color-hover:#2196F3; ;
 }
 .body {
+  position: absolute;
+  font-style: normal;
+}
+
+/* Logo WebStdio*/
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color)
+}
+.span {
+  line-height: 1.38;
+  color: var(--text-color-hover)
+}
+/*Nav-menu*/
+
+.nav-menu {
+  display: inline;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color)
+}
+
+.nav-menu:hover,
+.nav-menu:focus {
+  color: #2196F3;
+  
+}
+li{
+color: #757575 !important;
+}
+.contact-number {
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575 !important;
+  
+}/*
+.list-contact{
 
 }
-a{
-  text-decoration: none;
-}
 .list {
-  list-style: none;
-  padding: 0;
 }
 .link {
-  color: inherit;
+
 }
 .button {
   padding: 0;
@@ -26,18 +77,12 @@ a{
   cursor: pointer;
   line-height: 0;
 }
-.nav-menu {
-}
-.nav-menu:hover,
-.nav-menu:focus {
-  color: beige;
-}
+/*
 .contact-number:hover,
 .contact-number:focus {
-  color: #2f303a;
-  background-color: aqua;
+ 
 }
-/* comentar */
+
 .description {
 }
 
@@ -49,29 +94,9 @@ a{
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: blue;
-}
-/*WebStdio*/
-.logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: #212121;
 }
-.span {
-  line-height: 1.38;
-  color: #2196F3;
-}
+
 /*.hero {
   position: absolute;
   width: 1600px;
