@@ -4,17 +4,29 @@
   --text-color-hover:#2196F3; ;
 }
 .body {
+  list-style: none;
+  text-decoration: none;
   position: absolute;
   font-style: normal;
 }
+ul{
+  list-style-type: none;
+}
+.list
+{ 
+  text-decoration: none;
+  list-style-type: none;
 
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
 /* Logo WebStdio*/
 .logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
+  text-decoration: none;
+  position: absolute;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -39,18 +51,15 @@
 }
 
 .contact-number {
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   
+  list-style: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 14px;
   line-height: 1,17;
   letter-spacing: 0.02em;
-  color: #757575 !important;
+  color: #757575 
   
 }/*
 .list-contact{
@@ -89,6 +98,7 @@
   
 }
 */
+/*
 .hero {
   position: absolute;
   width: 1600px;
