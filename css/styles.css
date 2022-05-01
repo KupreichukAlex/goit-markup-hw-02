@@ -66,10 +66,12 @@ a {
 }
 
 .nav-menu {
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
 .nav-link{
+
   color:var(--text-color-h);
 }
 
