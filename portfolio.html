@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
 
 
 </head>
@@ -22,78 +23,78 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <a class="logo link" lang="en" href="index.html"><span class="span">Web</span>Studio</a>
+            <a class="logo" lang="en" href="index.html"><span class="span">Web</span>Studio</a>
 
-            <ul class="nav-menu">
-                <li><a class="nav-item list" href="index.html">Студия</a></li>
-                <li><a class="nav-item list" href="portfolio.html">Портфолио</a></li>
-                <li><a class="nav-item list" href="#contact">Контакты</a></li>
+            <ul class="nav-menu list">
+                <li><a class="nav-link link" href="index.html">Студия</a></li>
+                <li><a class="nav-link link current" href="portfolio.html">Портфолио</a></li>
+                <li><a class="nav-link link" href="#contact">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="list-contact">
-            <li><a class="contact-mail list" href="mailto:info@devstudio">info@devstudio</a>
+        <ul class="list-contact list">
+            <li><a class="contact-mail link" href="mailto:info@devstudio">info@devstudio</a>
             </li>
-            <li><a class="contact-number list" href="tel:+380961111111">+38 096 111 11 11</a>
+            <li><a class="contact-number link" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
         </header>
-        <section class="hero-portfolio">
+        <section class="portfolio">
           
-                <h1 hidden class="title-portfolio"> Портфолио </h1>
+                <h1 class="visually-hidden"> Портфолио </h1>
 <ul>
-    <li><button class="button" type="button">Все</button></li>
-    <li><button class="button" type="button">Веб-сайты</button></li>
-    <li><button class="button" type="button">Приложения</button></li>
-    <li><button class="button" type="button">Дизайн</button></li>
-    <li><button class="button" type="button">Маркетинг</button></li>
+    <li><button class="portfolio-btn" type="button">Все</button></li>
+    <li><button class="portfolio-btn" type="button">Веб-сайты</button></li>
+    <li><button class="portfolio-btn" type="button">Приложения</button></li>
+    <li><button class="portfolio-btn" type="button">Дизайн</button></li>
+    <li><button class="portfolio-btn" type="button">Маркетинг</button></li>
 </ul>        
             
         
-            <ul class="list-portf">
-                <li class="list-item ">
+            <ul class="portf-list list">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img1.png " alt="И" width="270">
-                    <h2 class="title-cards">Технокряк</h2>
-                    <p class="text" lang="en">Веб-сайты</p>
+                    <h2 class="cards-title">Технокряк</h2>
+                    <p class="cards-group" lang="en">Веб-сайты</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img2.png " alt="Ольга" width="270">
-                    <h2 class="title-cards">Постер New Orlean vs Golden Star</h2>
-                    <p class="text" lang="en">Дизайн</p>
+                    <h2 class="cards-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="cards-group" lang="en">Дизайн</p>
                 </li>
                 <li class="list-item ">
                     <img src="./images/portfolio/img3.png" alt="Николай" width="270">
-                    <h2 class="title-cards">Ресторан Seafood</h2>
-                    <p class="text" lang="en">Приложения</p>
+                    <h2 class="cards-title">Ресторан Seafood</h2>
+                    <p class="cards-group" lang="en">Приложения</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img4.png" alt="Игорь" width="270">
-                    <h2 class="title-cards">Проект Prime</h2>
-                    <p class="text" lang="en">Маркетинг</p>
+                    <h2 class="cards-title">Проект Prime</h2>
+                    <p class="cards-group" lang="en">Маркетинг</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img5.png" alt="Игорь" width="270">
-                    <h2 class="title-cards">Проект Boxes</h2>
-                    <p class="text" lang="en">Приложения</p>
+                    <h2 class="cards-title">Проект Boxes</h2>
+                    <p class="cards-group" lang="en">Приложения</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img6.png " alt="Ольга" width="270">
-                    <h2 class="title-cards">Inspiration has no Borders</h2>
-                    <p class="text" lang="en">Веб-сайты</p>
+                    <h2 class="cards-title">Inspiration has no Borders</h2>
+                    <p class="cards-group" lang="en">Веб-сайты</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img7.png" alt="Николай" width="270">
-                    <h2 class="title-cards">Издание Limited Edition</h2>
-                    <p class="text" lang="en">Дизайн</p>
+                    <h2 class="cards-title">Издание Limited Edition</h2>
+                    <p class="cards-group" lang="en">Дизайн</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img8.png" alt="Игорь" width="270">
-                    <h2 class="title-cards">Проект LAB</h2>
-                    <p class="text" lang="en">Маркетинг</p>
+                    <h2 class="cards-title">Проект LAB</h2>
+                    <p class="cards-group" lang="en">Маркетинг</p>
                 </li>
-                <li class="list-item ">
+                <li class="portf-item ">
                     <img src="./images/portfolio/img9.png" alt="Игорь" width="270">
-                    <h2 class="title-cards">Growing Business</h2>
-                    <p class="text" lang="en">Приложения</p>
+                    <h2 class="cards-title">Growing Business</h2>
+                    <p class="cards-group" lang="en">Приложения</p>
                 </li>
                 
             </ul>
@@ -105,17 +106,17 @@
         
             <address id="contact">
         
-                <ul class="list-contact">
-                    <li><a class="link-footer-map " href="https://goo.gl/maps/f1McvQRz6KP4o4kd8" target="_blank"
+                <ul class="list-contact list">
+                    <li><a class="link-footer-map link" href="https://goo.gl/maps/f1McvQRz6KP4o4kd8" target="_blank"
                             rel="noopener noreferrer">г. Киев,
                             пр-т Леси Украинки,26</a></li>
-                    <li><a class="list-item-contact " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="list-item-contact " href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-        
-            </address>
-        
-        </footer>
-        </body>
-        
-        </html>
+                
+                </address>
+                
+                </footer>
+                </body>
+                
+                </html>

@@ -10,18 +10,20 @@
   --logo-color: #000000;
   --text-color-hover:#2196F3; 
   --text-color-primary: #757575;;
-  --text-color-h: #212121;;
+  --text-color-h: #212121;
+  --modal-btn-hover: #188CE8;
 }
+
 body {
   color: var(--text-color-primary);
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   font-size: 14px;
-  font-weight: 500;
   font-family: var(--main-font);
-  font-style: normal;
+ 
 }
-ul, ol {
+
+.list {
   list-style: none;
 }
 
@@ -30,39 +32,43 @@ a {
   font-style: normal;
 }
 
-.list-contact
-{
-  display: inline;
-}
-.list
-{ 
-  text-decoration: none;
-  list-style-type: none;
 
-}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* Logo WebStdio*/
 .logo {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
-  letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 .span {
-  font-weight: 400;
   line-height: 1.38;
   color: var(--text-color-hover)
 }
 /*Nav-menu*/
 
+.current {
+  color: var(--text-color-hover);
+}
+
 .nav-menu {
-  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 
-.nav-item{
+.nav-link{
   color:var(--text-color-h);
 }
 
@@ -75,8 +81,8 @@ a {
 color: var(--text-color-primary);
 }
 
-.list:hover,
-.list:focus {
+.link:hover,
+.link:focus {
   color: var(--text-color-hover);
 }
 
@@ -112,64 +118,61 @@ color: var(--text-color-primary);
 
 .button-modal:hover,
 .button-modal:focus {
-  background-color: #188CE8;
+  background-color: var(--modal-btn-hover);
 }
 
-
+.current {
+  color: var(--text-color-hover);
+}
 /*Benefits*/ 
 
-.title-ben{
+.benefits-title {
+  font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   
   color: var(--text-color-h);
 }
 
-.description{
-  font-weight: 400;
+.benefits-descr {
   line-height: 1.71;
-  letter-spacing: 0.03em;
+
   
 }
 
 /*Works*/
-.title-works{
+.works-title {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.03em;
   
   color: var(--text-color-h);
 }
 
 /*Team*/
-.title-team{  
+
+
+.team{
+  background-color: var(--button-portfolio);
+}
+
+.team-title {  
   font-weight: 700;
   font-size: 36px;
-  line-height:1.17;
-  letter-spacing: 0.03em;
   
   color:var(--text-color-h);
 }
 
 
-.title-team-player
-{
-
+.team-player-title {
 font-size: 16px;
-line-height: 1.2;
-letter-spacing: 0.03em;
 
 color: var(--text-color-h);
 }
 
-.text-team-player
-{
+.team-player-descr {
 
-font-weight: 400;
 font-size: 16px;
-line-height: 1.2px;
-letter-spacing: 0.03em;
 
 }
 
@@ -179,21 +182,16 @@ letter-spacing: 0.03em;
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
-  letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 .span-f
 {
-  font-weight: 400;
   line-height: 1.38;
   color: var(--text-color-hover)
 }
 .text-addres
 {
-  
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   
   color:var(--theme-color-light);
 }
@@ -206,11 +204,10 @@ letter-spacing: 0.03em;
   color: var(--theme-color-light);
 }
 
-.list-item-contact
-{
-  font-weight: 400;
+.contact-link {
+  
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  
   
   color: var(--contact-color-footer);
 
@@ -222,8 +219,12 @@ letter-spacing: 0.03em;
 
 /*Portfolio */
 
-li>.button
-{
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+
   border-radius: 4px;
 
   background: var(--button-portfolio);
@@ -231,13 +232,24 @@ li>.button
 
 }
 
-li>.button:hover,
-li>.button:focus 
+.portfolio-btn:hover,
+.portfolio-btn:focus 
 {
   background-color: var(--text-color-hover);
   color: var(--theme-color-light);
 }
 
-.title-cards {
+.cards-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
   color: var(--text-color-h);
+}
+
+.cards-group {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
