@@ -17,9 +17,7 @@
 body {
   color: var(--text-color-primary);
   letter-spacing: 0.03em;
-  line-height: 1.17;
   font-size: 14px;
-  font-weight: 500;
   font-family: var(--main-font);
  
 }
@@ -28,9 +26,8 @@ body {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
-  font-style: normal;
 }
 
 
@@ -61,6 +58,11 @@ a {
 }
 /*Nav-menu*/
 
+.list-contact-header {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
 .current {
   color: var(--text-color-hover);
 }
@@ -84,8 +86,8 @@ a {
 color: var(--text-color-primary);
 }
 
-.link:hover,
-.link:focus {
+li>.link:hover,
+li>.link:focus {
   color: var(--text-color-hover);
 }
 
@@ -197,6 +199,10 @@ font-size: 16px;
   line-height: 1.71;
   
   color:var(--theme-color-light);
+}
+
+.list-contact-footer {
+  font-style: normal;
 }
 .footer
 {
