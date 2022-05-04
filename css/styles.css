@@ -171,12 +171,12 @@ li>.link:focus {
 
 .team-player-title {
 font-size: 16px;
+font-weight: 500;
 
 color: var(--text-color-h);
 }
 
 .team-player-descr {
-
 font-size: 16px;
 
 }
